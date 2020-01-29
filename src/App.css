@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: #427ef6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(7, 6, 6);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  text-align: center;
+}
+
+.mate-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+  padding-top: 2%;
+  border-top: 2px solid #fd0505;
+  width: 100%;
+  
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000000;
+  color: white;
+  border: 1px solid #fd0505;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+  width: 100%;
+  max-width: 300px;
+  padding: 3%;
+  margin: 16px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+button {
+  background: #050505;
+  border: 1px solid #fd0505;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fdfbfb;
+  margin-top: 10%;
+  transition: all 0.2 ease-in;
+}
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.12), 0 2px 3px 2px rgba(0, 0, 0, 0.24);
+  background: #ff65a3;
+}
